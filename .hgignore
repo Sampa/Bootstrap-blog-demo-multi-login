@@ -1,0 +1,15 @@
+glob:protected/runtime/*
+glob:nbproject/*
+glob:.directory
+glob:.buildpath
+glob:.project
+glob:.settings/*
+glob:uploads/*
+\.orig\..*$
+\.orig$
+\.chg\..*$
+\.rej$
+\.conflict\~$
+syntax: re
+^assets/*.*
+.DS_Store
