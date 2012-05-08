@@ -49,7 +49,10 @@ return array(
             'generatorPaths' => array(
                 'ext.giix-core', // giix generators
                 'ext.bootstrap.gii',
+				'application.gii',  //Ajax Crud template path
+
             ),
+
             'ipFilters' => array('127.0.0.1', '::1'),
         ),
     ),

@@ -67,6 +67,8 @@
                                 array('label' => 'About', 'url' => array('/site/page', 'view' => 'about')),
                                 array('label' => 'Two Columns', 'url' => array('/site/twoColumns')),
                                 array('label' => 'Contact', 'url' => array('/site/contact')),
+                                array('label' => 'Blog admin', 'url' => array('/post/admin')),
+
                             ),
                         ),
 					array(

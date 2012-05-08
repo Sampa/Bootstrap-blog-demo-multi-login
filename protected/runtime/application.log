@@ -3003,3 +3003,244 @@ Stack trace:
 REQUEST_URI=/cms/admin
 HTTP_REFERER=http://mauriciorivera/
 ---
+2012/05/08 11:22:41 [error] [php] Declaration of PostController::performAjaxValidation() should be compatible with that of Controller::performAjaxValidation() (C:\Programmering\xampp\htdocs\mauriciorivera\protected\controllers\PostController.php:15)
+Stack trace:
+#0 C:\Programmering\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#1 C:\Programmering\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\Programmering\xampp\htdocs\mauriciorivera\index.php(13): CWebApplication->run()
+REQUEST_URI=/post
+in C:\Programmering\xampp\htdocs\mauriciorivera\protected\controllers\PostController.php (15)
+in C:\Programmering\xampp\htdocs\mauriciorivera\index.php (13)
+2012/05/08 11:24:28 [error] [php] Undefined variable: js_afterValidate (C:\Programmering\xampp\htdocs\mauriciorivera\protected\views\post\_ajax_form.php:57)
+Stack trace:
+#0 C:\Programmering\xampp\htdocs\yii\framework\web\CController.php(870): PostController->renderFile()
+#1 C:\Programmering\xampp\htdocs\mauriciorivera\protected\controllers\PostController.php(166): PostController->renderPartial()
+#2 C:\Programmering\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): PostController->actionReturnForm()
+#3 C:\Programmering\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#4 C:\Programmering\xampp\htdocs\yii\framework\web\CController.php(287): PostController->runAction()
+#5 C:\Programmering\xampp\htdocs\yii\framework\web\CController.php(266): PostController->runActionWithFilters()
+#6 C:\Programmering\xampp\htdocs\yii\framework\web\CWebApplication.php(276): PostController->run()
+#7 C:\Programmering\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#8 C:\Programmering\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\Programmering\xampp\htdocs\mauriciorivera\index.php(13): CWebApplication->run()
+REQUEST_URI=/post/returnForm
+in C:\Programmering\xampp\htdocs\mauriciorivera\protected\views\post\_ajax_form.php (57)
+in C:\Programmering\xampp\htdocs\mauriciorivera\protected\controllers\PostController.php (166)
+in C:\Programmering\xampp\htdocs\mauriciorivera\index.php (13)
+2012/05/08 11:24:30 [error] [php] Undefined variable: js_afterValidate (C:\Programmering\xampp\htdocs\mauriciorivera\protected\views\post\_ajax_form.php:57)
+Stack trace:
+#0 C:\Programmering\xampp\htdocs\yii\framework\web\CController.php(870): PostController->renderFile()
+#1 C:\Programmering\xampp\htdocs\mauriciorivera\protected\controllers\PostController.php(166): PostController->renderPartial()
+#2 C:\Programmering\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): PostController->actionReturnForm()
+#3 C:\Programmering\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#4 C:\Programmering\xampp\htdocs\yii\framework\web\CController.php(287): PostController->runAction()
+#5 C:\Programmering\xampp\htdocs\yii\framework\web\CController.php(266): PostController->runActionWithFilters()
+#6 C:\Programmering\xampp\htdocs\yii\framework\web\CWebApplication.php(276): PostController->run()
+#7 C:\Programmering\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#8 C:\Programmering\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\Programmering\xampp\htdocs\mauriciorivera\index.php(13): CWebApplication->run()
+REQUEST_URI=/post/returnForm
+in C:\Programmering\xampp\htdocs\mauriciorivera\protected\views\post\_ajax_form.php (57)
+in C:\Programmering\xampp\htdocs\mauriciorivera\protected\controllers\PostController.php (166)
+in C:\Programmering\xampp\htdocs\mauriciorivera\index.php (13)
+2012/05/08 11:24:34 [error] [php] Undefined variable: js_afterValidate (C:\Programmering\xampp\htdocs\mauriciorivera\protected\views\post\_ajax_form.php:57)
+Stack trace:
+#0 C:\Programmering\xampp\htdocs\yii\framework\web\CController.php(870): PostController->renderFile()
+#1 C:\Programmering\xampp\htdocs\mauriciorivera\protected\controllers\PostController.php(166): PostController->renderPartial()
+#2 C:\Programmering\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): PostController->actionReturnForm()
+#3 C:\Programmering\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#4 C:\Programmering\xampp\htdocs\yii\framework\web\CController.php(287): PostController->runAction()
+#5 C:\Programmering\xampp\htdocs\yii\framework\web\CController.php(266): PostController->runActionWithFilters()
+#6 C:\Programmering\xampp\htdocs\yii\framework\web\CWebApplication.php(276): PostController->run()
+#7 C:\Programmering\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#8 C:\Programmering\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\Programmering\xampp\htdocs\mauriciorivera\index.php(13): CWebApplication->run()
+REQUEST_URI=/post/returnForm
+in C:\Programmering\xampp\htdocs\mauriciorivera\protected\views\post\_ajax_form.php (57)
+in C:\Programmering\xampp\htdocs\mauriciorivera\protected\controllers\PostController.php (166)
+in C:\Programmering\xampp\htdocs\mauriciorivera\index.php (13)
+2012/05/08 11:24:38 [error] [php] Undefined variable: js_afterValidate (C:\Programmering\xampp\htdocs\mauriciorivera\protected\views\post\_ajax_form.php:57)
+Stack trace:
+#0 C:\Programmering\xampp\htdocs\yii\framework\web\CController.php(870): PostController->renderFile()
+#1 C:\Programmering\xampp\htdocs\mauriciorivera\protected\controllers\PostController.php(166): PostController->renderPartial()
+#2 C:\Programmering\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): PostController->actionReturnForm()
+#3 C:\Programmering\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#4 C:\Programmering\xampp\htdocs\yii\framework\web\CController.php(287): PostController->runAction()
+#5 C:\Programmering\xampp\htdocs\yii\framework\web\CController.php(266): PostController->runActionWithFilters()
+#6 C:\Programmering\xampp\htdocs\yii\framework\web\CWebApplication.php(276): PostController->run()
+#7 C:\Programmering\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#8 C:\Programmering\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\Programmering\xampp\htdocs\mauriciorivera\index.php(13): CWebApplication->run()
+REQUEST_URI=/post/returnForm
+in C:\Programmering\xampp\htdocs\mauriciorivera\protected\views\post\_ajax_form.php (57)
+in C:\Programmering\xampp\htdocs\mauriciorivera\protected\controllers\PostController.php (166)
+in C:\Programmering\xampp\htdocs\mauriciorivera\index.php (13)
+2012/05/08 11:24:40 [error] [php] Undefined variable: js_afterValidate (C:\Programmering\xampp\htdocs\mauriciorivera\protected\views\post\_ajax_form.php:57)
+Stack trace:
+#0 C:\Programmering\xampp\htdocs\yii\framework\web\CController.php(870): PostController->renderFile()
+#1 C:\Programmering\xampp\htdocs\mauriciorivera\protected\controllers\PostController.php(166): PostController->renderPartial()
+#2 C:\Programmering\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): PostController->actionReturnForm()
+#3 C:\Programmering\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#4 C:\Programmering\xampp\htdocs\yii\framework\web\CController.php(287): PostController->runAction()
+#5 C:\Programmering\xampp\htdocs\yii\framework\web\CController.php(266): PostController->runActionWithFilters()
+#6 C:\Programmering\xampp\htdocs\yii\framework\web\CWebApplication.php(276): PostController->run()
+#7 C:\Programmering\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#8 C:\Programmering\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\Programmering\xampp\htdocs\mauriciorivera\index.php(13): CWebApplication->run()
+REQUEST_URI=/post/returnForm
+in C:\Programmering\xampp\htdocs\mauriciorivera\protected\views\post\_ajax_form.php (57)
+in C:\Programmering\xampp\htdocs\mauriciorivera\protected\controllers\PostController.php (166)
+in C:\Programmering\xampp\htdocs\mauriciorivera\index.php (13)
+2012/05/08 11:24:54 [error] [php] Undefined variable: js_afterValidate (C:\Programmering\xampp\htdocs\mauriciorivera\protected\views\post\_ajax_form.php:57)
+Stack trace:
+#0 C:\Programmering\xampp\htdocs\yii\framework\web\CController.php(870): PostController->renderFile()
+#1 C:\Programmering\xampp\htdocs\mauriciorivera\protected\controllers\PostController.php(166): PostController->renderPartial()
+#2 C:\Programmering\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): PostController->actionReturnForm()
+#3 C:\Programmering\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#4 C:\Programmering\xampp\htdocs\yii\framework\web\CController.php(287): PostController->runAction()
+#5 C:\Programmering\xampp\htdocs\yii\framework\web\CController.php(266): PostController->runActionWithFilters()
+#6 C:\Programmering\xampp\htdocs\yii\framework\web\CWebApplication.php(276): PostController->run()
+#7 C:\Programmering\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#8 C:\Programmering\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\Programmering\xampp\htdocs\mauriciorivera\index.php(13): CWebApplication->run()
+REQUEST_URI=/post/returnForm
+in C:\Programmering\xampp\htdocs\mauriciorivera\protected\views\post\_ajax_form.php (57)
+in C:\Programmering\xampp\htdocs\mauriciorivera\protected\controllers\PostController.php (166)
+in C:\Programmering\xampp\htdocs\mauriciorivera\index.php (13)
+2012/05/08 11:24:55 [error] [php] Undefined variable: js_afterValidate (C:\Programmering\xampp\htdocs\mauriciorivera\protected\views\post\_ajax_form.php:57)
+Stack trace:
+#0 C:\Programmering\xampp\htdocs\yii\framework\web\CController.php(870): PostController->renderFile()
+#1 C:\Programmering\xampp\htdocs\mauriciorivera\protected\controllers\PostController.php(166): PostController->renderPartial()
+#2 C:\Programmering\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): PostController->actionReturnForm()
+#3 C:\Programmering\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#4 C:\Programmering\xampp\htdocs\yii\framework\web\CController.php(287): PostController->runAction()
+#5 C:\Programmering\xampp\htdocs\yii\framework\web\CController.php(266): PostController->runActionWithFilters()
+#6 C:\Programmering\xampp\htdocs\yii\framework\web\CWebApplication.php(276): PostController->run()
+#7 C:\Programmering\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#8 C:\Programmering\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\Programmering\xampp\htdocs\mauriciorivera\index.php(13): CWebApplication->run()
+REQUEST_URI=/post/returnForm
+in C:\Programmering\xampp\htdocs\mauriciorivera\protected\views\post\_ajax_form.php (57)
+in C:\Programmering\xampp\htdocs\mauriciorivera\protected\controllers\PostController.php (166)
+in C:\Programmering\xampp\htdocs\mauriciorivera\index.php (13)
+2012/05/08 11:24:56 [error] [php] Undefined variable: js_afterValidate (C:\Programmering\xampp\htdocs\mauriciorivera\protected\views\post\_ajax_form.php:57)
+Stack trace:
+#0 C:\Programmering\xampp\htdocs\yii\framework\web\CController.php(870): PostController->renderFile()
+#1 C:\Programmering\xampp\htdocs\mauriciorivera\protected\controllers\PostController.php(166): PostController->renderPartial()
+#2 C:\Programmering\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): PostController->actionReturnForm()
+#3 C:\Programmering\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#4 C:\Programmering\xampp\htdocs\yii\framework\web\CController.php(287): PostController->runAction()
+#5 C:\Programmering\xampp\htdocs\yii\framework\web\CController.php(266): PostController->runActionWithFilters()
+#6 C:\Programmering\xampp\htdocs\yii\framework\web\CWebApplication.php(276): PostController->run()
+#7 C:\Programmering\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#8 C:\Programmering\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\Programmering\xampp\htdocs\mauriciorivera\index.php(13): CWebApplication->run()
+REQUEST_URI=/post/returnForm
+in C:\Programmering\xampp\htdocs\mauriciorivera\protected\views\post\_ajax_form.php (57)
+in C:\Programmering\xampp\htdocs\mauriciorivera\protected\controllers\PostController.php (166)
+in C:\Programmering\xampp\htdocs\mauriciorivera\index.php (13)
+2012/05/08 11:26:49 [error] [php] Undefined variable: js_afterValidate (C:\Programmering\xampp\htdocs\mauriciorivera\protected\views\post\_ajax_form.php:57)
+Stack trace:
+#0 C:\Programmering\xampp\htdocs\yii\framework\web\CController.php(870): PostController->renderFile()
+#1 C:\Programmering\xampp\htdocs\mauriciorivera\protected\controllers\PostController.php(166): PostController->renderPartial()
+#2 C:\Programmering\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): PostController->actionReturnForm()
+#3 C:\Programmering\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#4 C:\Programmering\xampp\htdocs\yii\framework\web\CController.php(287): PostController->runAction()
+#5 C:\Programmering\xampp\htdocs\yii\framework\web\CController.php(266): PostController->runActionWithFilters()
+#6 C:\Programmering\xampp\htdocs\yii\framework\web\CWebApplication.php(276): PostController->run()
+#7 C:\Programmering\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#8 C:\Programmering\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\Programmering\xampp\htdocs\mauriciorivera\index.php(13): CWebApplication->run()
+REQUEST_URI=/post/returnForm
+in C:\Programmering\xampp\htdocs\mauriciorivera\protected\views\post\_ajax_form.php (57)
+in C:\Programmering\xampp\htdocs\mauriciorivera\protected\controllers\PostController.php (166)
+in C:\Programmering\xampp\htdocs\mauriciorivera\index.php (13)
+2012/05/08 11:36:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "blog/admin".' in C:\Programmering\xampp\htdocs\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\Programmering\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('blog/admin')
+#1 C:\Programmering\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\Programmering\xampp\htdocs\mauriciorivera\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/admin
+HTTP_REFERER=http://mauriciorivera/post/index
+---
+2012/05/08 11:37:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "blog/admin".' in C:\Programmering\xampp\htdocs\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\Programmering\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('blog/admin')
+#1 C:\Programmering\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\Programmering\xampp\htdocs\mauriciorivera\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/admin
+HTTP_REFERER=http://mauriciorivera/post/index
+---
+2012/05/08 11:37:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "blog/index".' in C:\Programmering\xampp\htdocs\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\Programmering\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('blog/index')
+#1 C:\Programmering\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\Programmering\xampp\htdocs\mauriciorivera\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/index
+---
+2012/05/08 11:37:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "blog/index".' in C:\Programmering\xampp\htdocs\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\Programmering\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('blog/index')
+#1 C:\Programmering\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\Programmering\xampp\htdocs\mauriciorivera\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/index
+---
+2012/05/08 11:41:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in C:\Programmering\xampp\htdocs\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Programmering\xampp\htdocs\yii\framework\web\CController.php(271): CController->missingAction('view')
+#1 C:\Programmering\xampp\htdocs\yii\framework\web\CWebApplication.php(276): CController->run('view')
+#2 C:\Programmering\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('post/view')
+#3 C:\Programmering\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Programmering\xampp\htdocs\mauriciorivera\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/post/view?id=12&title=Welcome%21
+HTTP_REFERER=http://mauriciorivera/post/index
+---
+2012/05/08 11:42:16 [error] [php] Missing argument 1 for PostController::loadModel(), called in C:\Programmering\xampp\htdocs\mauriciorivera\protected\controllers\PostController.php on line 100 and defined (C:\Programmering\xampp\htdocs\mauriciorivera\protected\controllers\PostController.php:115)
+Stack trace:
+#0 C:\Programmering\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#1 C:\Programmering\xampp\htdocs\yii\framework\web\CController.php(287): PostController->runAction()
+#2 C:\Programmering\xampp\htdocs\yii\framework\web\CController.php(266): PostController->runActionWithFilters()
+#3 C:\Programmering\xampp\htdocs\yii\framework\web\CWebApplication.php(276): PostController->run()
+#4 C:\Programmering\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#5 C:\Programmering\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 C:\Programmering\xampp\htdocs\mauriciorivera\index.php(13): CWebApplication->run()
+REQUEST_URI=/post/view?id=12&title=Welcome%21
+in C:\Programmering\xampp\htdocs\mauriciorivera\protected\controllers\PostController.php (115)
+in C:\Programmering\xampp\htdocs\mauriciorivera\protected\controllers\PostController.php (100)
+in C:\Programmering\xampp\htdocs\mauriciorivera\index.php (13)
+2012/05/08 11:42:28 [error] [php] Undefined variable: id (C:\Programmering\xampp\htdocs\mauriciorivera\protected\controllers\PostController.php:100)
+Stack trace:
+#0 C:\Programmering\xampp\htdocs\yii\framework\web\CController.php(287): PostController->runAction()
+#1 C:\Programmering\xampp\htdocs\yii\framework\web\CController.php(266): PostController->runActionWithFilters()
+#2 C:\Programmering\xampp\htdocs\yii\framework\web\CWebApplication.php(276): PostController->run()
+#3 C:\Programmering\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\Programmering\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\Programmering\xampp\htdocs\mauriciorivera\index.php(13): CWebApplication->run()
+REQUEST_URI=/post/view?id=12&title=Welcome%21
+in C:\Programmering\xampp\htdocs\mauriciorivera\protected\controllers\PostController.php (100)
+in C:\Programmering\xampp\htdocs\mauriciorivera\index.php (13)
+2012/05/08 11:42:49 [error] [exception.CException] exception 'CException' with message 'PostController cannot find the requested view "_comments".' in C:\Programmering\xampp\htdocs\yii\framework\web\CController.php:879
+Stack trace:
+#0 C:\Programmering\xampp\htdocs\mauriciorivera\protected\views\post\view.php(21): CController->renderPartial('_comments', Array)
+#1 C:\Programmering\xampp\htdocs\yii\framework\web\CBaseController.php(127): require('C:\Programmerin...')
+#2 C:\Programmering\xampp\htdocs\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\Programmerin...', Array, true)
+#3 C:\Programmering\xampp\htdocs\yii\framework\web\CController.php(870): CBaseController->renderFile('C:\Programmerin...', Array, true)
+#4 C:\Programmering\xampp\htdocs\yii\framework\web\CController.php(783): CController->renderPartial('view', Array, true)
+#5 C:\Programmering\xampp\htdocs\mauriciorivera\protected\controllers\PostController.php(106): CController->render('view', Array)
+#6 C:\Programmering\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): PostController->actionView()
+#7 C:\Programmering\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#8 C:\Programmering\xampp\htdocs\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#9 C:\Programmering\xampp\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\Programmering\xampp\htdocs\yii\framework\web\CWebApplication.php(276): CController->run('view')
+#11 C:\Programmering\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('post/view')
+#12 C:\Programmering\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 C:\Programmering\xampp\htdocs\mauriciorivera\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/post/view?id=12&title=Welcome%21
+HTTP_REFERER=http://mauriciorivera/post/index
+---
