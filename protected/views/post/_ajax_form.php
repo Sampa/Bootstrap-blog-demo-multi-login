@@ -8,7 +8,7 @@
  * @since 1.0
  * @ver 1.3
  -->
-<div id="post_form_con" class="client-val-form">
+<div id="post_form_con" class="client-val-form well">
     <?php if ($model->isNewRecord) : ?>    <h3 id="create_header">Create New Post</h3>
     <?php  elseif (!$model->isNewRecord):  ?>    <h3 id="update_header">Update Post <?php  echo
         $model->id;  ?>  </h3>
@@ -38,8 +38,9 @@
     </div>
 
     <div id="ajax-form"  class='form'>
-<?php   $formId='post-form';
-   $actionUrl =
+<?php   
+	$formId='post-form';
+	$actionUrl =
    ($model->isNewRecord)?CController::createUrl('post/ajax_create')
                                                                  :CController::createUrl('post/ajax_update');
 
@@ -49,19 +50,20 @@
      'id'=>'post-form',
     //  'htmlOptions' => array('enctype' => 'multipart/form-data'),
          'action' => $actionUrl,
-    // 'enableAjaxValidation'=>true,
-      'enableClientValidation'=>true,
-     'focus'=>array($model,'name'),
-     'errorMessageCssClass' => 'input-notification-error  error-simple png_bg',
-     'clientOptions'=>array('validateOnSubmit'=>true,
-                                        'validateOnType'=>false,
-                                        'afterValidate'=>$js_afterValidate,
-                                        'errorCssClass' => 'err',
-                                        'successCssClass' => 'suc',
-                                        'afterValidate' => 'js:function(form,data,hasError){ $.js_afterValidate(form,data,hasError);  }',
-                                         'errorCssClass' => 'err',
-                                        'successCssClass' => 'suc',
-                                        'afterValidateAttribute' => 'js:function(form, attribute, data, hasError){
+		'enableAjaxValidation'=>true,
+		'enableClientValidation'=>true,
+		'focus'=>array($model,'name'),
+		'errorMessageCssClass' => 'input-notification-error  error-simple png_bg',
+		'clientOptions'=>array('
+						validateOnSubmit'=>true,
+						'validateOnType'=>true,
+						'afterValidate'=>$js_afterValidate,
+						'errorCssClass' => 'err',
+						'successCssClass' => 'suc',
+						'afterValidate' => 'js:function(form,data,hasError){ $.js_afterValidate(form,data,hasError);  }',
+						 'errorCssClass' => 'err',
+						'successCssClass' => 'suc',
+						'afterValidateAttribute' => 'js:function(form, attribute, data, hasError){
                                                                                                  $.js_afterValidateAttribute(form, attribute, data, hasError);
                                                                                                                             }'
                                                                              ),
@@ -138,9 +140,9 @@
     <?php  if (!$model->isNewRecord): ?>    <input type="hidden" name="update_id"
            value=" <?php echo $model->id; ?>"/>
     <?php endif; ?>
-    <div class="row-fluid buttons">
+    <div class="row-fluid">
         <?php   echo CHtml::submitButton($model->isNewRecord ? 'Submit' : 'Save',array('class' =>
-        'btn btn-primary align-right')); ?>    </div>
+        'btn btn-primary ')); ?>    </div>
 
   <?php  $this->endWidget(); ?></div>
     <!-- form -->

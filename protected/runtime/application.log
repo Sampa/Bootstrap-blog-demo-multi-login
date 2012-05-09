@@ -3268,3 +3268,99 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/favicon.ico
 ---
+2012/05/09 15:31:05 [error] [exception.CException] exception 'CException' with message 'Alias "extentions.bootstrap.BootGridView" is invalid. Make sure it points to an existing directory or file.' in C:\Programmering\xampp\htdocs\yii\framework\YiiBase.php:343
+Stack trace:
+#0 C:\Programmering\xampp\htdocs\yii\framework\web\CWidgetFactory.php(147): YiiBase::import('extentions.boot...', true)
+#1 C:\Programmering\xampp\htdocs\yii\framework\web\CBaseController.php(147): CWidgetFactory->createWidget(Object(PostController), 'extentions.boot...', Array)
+#2 C:\Programmering\xampp\htdocs\yii\framework\web\CBaseController.php(173): CBaseController->createWidget('extentions.boot...', Array)
+#3 C:\Programmering\xampp\htdocs\mauriciorivera\protected\views\post\admin.php(98): CBaseController->widget('extentions.boot...', Array)
+#4 C:\Programmering\xampp\htdocs\yii\framework\web\CBaseController.php(127): require('C:\Programmerin...')
+#5 C:\Programmering\xampp\htdocs\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\Programmerin...', Array, true)
+#6 C:\Programmering\xampp\htdocs\yii\framework\web\CController.php(870): CBaseController->renderFile('C:\Programmerin...', Array, true)
+#7 C:\Programmering\xampp\htdocs\yii\framework\web\CController.php(783): CController->renderPartial('admin', Array, true)
+#8 C:\Programmering\xampp\htdocs\mauriciorivera\protected\controllers\PostController.php(245): CController->render('admin', Array)
+#9 C:\Programmering\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): PostController->actionAdmin()
+#10 C:\Programmering\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 C:\Programmering\xampp\htdocs\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#12 C:\Programmering\xampp\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\Programmering\xampp\htdocs\yii\framework\web\CWebApplication.php(276): CController->run('admin')
+#14 C:\Programmering\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('post/admin')
+#15 C:\Programmering\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 C:\Programmering\xampp\htdocs\mauriciorivera\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/post/admin?Post_sort=tags&ajax=post-grid
+HTTP_REFERER=http://mauriciorivera/post/admin
+---
+2012/05/09 15:31:05 [error] [exception.CException] exception 'CException' with message 'Alias "extentions.bootstrap.BootGridView" is invalid. Make sure it points to an existing directory or file.' in C:\Programmering\xampp\htdocs\yii\framework\YiiBase.php:343
+Stack trace:
+#0 C:\Programmering\xampp\htdocs\yii\framework\web\CWidgetFactory.php(147): YiiBase::import('extentions.boot...', true)
+#1 C:\Programmering\xampp\htdocs\yii\framework\web\CBaseController.php(147): CWidgetFactory->createWidget(Object(PostController), 'extentions.boot...', Array)
+#2 C:\Programmering\xampp\htdocs\yii\framework\web\CBaseController.php(173): CBaseController->createWidget('extentions.boot...', Array)
+#3 C:\Programmering\xampp\htdocs\mauriciorivera\protected\views\post\admin.php(98): CBaseController->widget('extentions.boot...', Array)
+#4 C:\Programmering\xampp\htdocs\yii\framework\web\CBaseController.php(127): require('C:\Programmerin...')
+#5 C:\Programmering\xampp\htdocs\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\Programmerin...', Array, true)
+#6 C:\Programmering\xampp\htdocs\yii\framework\web\CController.php(870): CBaseController->renderFile('C:\Programmerin...', Array, true)
+#7 C:\Programmering\xampp\htdocs\yii\framework\web\CController.php(783): CController->renderPartial('admin', Array, true)
+#8 C:\Programmering\xampp\htdocs\mauriciorivera\protected\controllers\PostController.php(245): CController->render('admin', Array)
+#9 C:\Programmering\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): PostController->actionAdmin()
+#10 C:\Programmering\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 C:\Programmering\xampp\htdocs\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#12 C:\Programmering\xampp\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\Programmering\xampp\htdocs\yii\framework\web\CWebApplication.php(276): CController->run('admin')
+#14 C:\Programmering\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('post/admin')
+#15 C:\Programmering\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 C:\Programmering\xampp\htdocs\mauriciorivera\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/post/admin
+HTTP_REFERER=http://mauriciorivera/page/about
+---
+2012/05/09 15:31:16 [error] [exception.CException] exception 'CException' with message 'Alias "extensions.bootstrap.BootGridView" is invalid. Make sure it points to an existing directory or file.' in C:\Programmering\xampp\htdocs\yii\framework\YiiBase.php:343
+Stack trace:
+#0 C:\Programmering\xampp\htdocs\yii\framework\web\CWidgetFactory.php(147): YiiBase::import('extensions.boot...', true)
+#1 C:\Programmering\xampp\htdocs\yii\framework\web\CBaseController.php(147): CWidgetFactory->createWidget(Object(PostController), 'extensions.boot...', Array)
+#2 C:\Programmering\xampp\htdocs\yii\framework\web\CBaseController.php(173): CBaseController->createWidget('extensions.boot...', Array)
+#3 C:\Programmering\xampp\htdocs\mauriciorivera\protected\views\post\admin.php(98): CBaseController->widget('extensions.boot...', Array)
+#4 C:\Programmering\xampp\htdocs\yii\framework\web\CBaseController.php(127): require('C:\Programmerin...')
+#5 C:\Programmering\xampp\htdocs\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\Programmerin...', Array, true)
+#6 C:\Programmering\xampp\htdocs\yii\framework\web\CController.php(870): CBaseController->renderFile('C:\Programmerin...', Array, true)
+#7 C:\Programmering\xampp\htdocs\yii\framework\web\CController.php(783): CController->renderPartial('admin', Array, true)
+#8 C:\Programmering\xampp\htdocs\mauriciorivera\protected\controllers\PostController.php(245): CController->render('admin', Array)
+#9 C:\Programmering\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): PostController->actionAdmin()
+#10 C:\Programmering\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 C:\Programmering\xampp\htdocs\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#12 C:\Programmering\xampp\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\Programmering\xampp\htdocs\yii\framework\web\CWebApplication.php(276): CController->run('admin')
+#14 C:\Programmering\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('post/admin')
+#15 C:\Programmering\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 C:\Programmering\xampp\htdocs\mauriciorivera\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/post/admin
+HTTP_REFERER=http://mauriciorivera/page/about
+---
+2012/05/09 15:36:05 [error] [php] include(BootActiveForm.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\Programmering\xampp\htdocs\yii\framework\YiiBase.php:418)
+Stack trace:
+#0 C:\Programmering\xampp\htdocs\yii\framework\web\CWidgetFactory.php(147): import()
+#1 C:\Programmering\xampp\htdocs\yii\framework\web\CBaseController.php(147): CWidgetFactory->createWidget()
+#2 C:\Programmering\xampp\htdocs\yii\framework\web\CBaseController.php(190): PostController->createWidget()
+#3 C:\Programmering\xampp\htdocs\mauriciorivera\protected\views\post\_search.php(6): PostController->beginWidget()
+#4 C:\Programmering\xampp\htdocs\yii\framework\web\CBaseController.php(127): require()
+#5 C:\Programmering\xampp\htdocs\yii\framework\web\CBaseController.php(96): PostController->renderInternal()
+#6 C:\Programmering\xampp\htdocs\yii\framework\web\CController.php(870): PostController->renderFile()
+#7 C:\Programmering\xampp\htdocs\mauriciorivera\protected\views\post\admin.php(38): PostController->renderPartial()
+#8 C:\Programmering\xampp\htdocs\yii\framework\web\CBaseController.php(127): require()
+#9 C:\Programmering\xampp\htdocs\yii\framework\web\CBaseController.php(96): PostController->renderInternal()
+#10 C:\Programmering\xampp\htdocs\yii\framework\web\CController.php(870): PostController->renderFile()
+#11 C:\Programmering\xampp\htdocs\yii\framework\web\CController.php(783): PostController->renderPartial()
+#12 C:\Programmering\xampp\htdocs\mauriciorivera\protected\controllers\PostController.php(245): PostController->render()
+#13 C:\Programmering\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): PostController->actionAdmin()
+#14 C:\Programmering\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#15 C:\Programmering\xampp\htdocs\yii\framework\web\CController.php(287): PostController->runAction()
+#16 C:\Programmering\xampp\htdocs\yii\framework\web\CController.php(266): PostController->runActionWithFilters()
+#17 C:\Programmering\xampp\htdocs\yii\framework\web\CWebApplication.php(276): PostController->run()
+#18 C:\Programmering\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#19 C:\Programmering\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#20 C:\Programmering\xampp\htdocs\mauriciorivera\index.php(13): CWebApplication->run()
+REQUEST_URI=/post/admin
+in C:\Programmering\xampp\htdocs\mauriciorivera\protected\views\post\_search.php (6)
+in C:\Programmering\xampp\htdocs\mauriciorivera\protected\views\post\admin.php (38)
+in C:\Programmering\xampp\htdocs\mauriciorivera\protected\controllers\PostController.php (245)

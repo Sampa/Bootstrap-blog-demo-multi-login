@@ -23,6 +23,8 @@ return array(
         'ext.giix-components.*',
 		'ext.xupload.models.XUploadForm',
 		'application.extensions.nestedset.*',
+		'ext.bootstrap.widgets.*',
+
     ),
 	'aliases' => array(
 	//assuming you extracted the files to the extensions folder

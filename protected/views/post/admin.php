@@ -40,7 +40,7 @@ or <b>=</b>) at the beginning of each of your search values to specify how the c
 
 <div class="right">
     <input id="add_post" type="button" style="display:block; clear: both;"
-           value="Create Post" class="client-val-form button">
+           value="Create Post" class="  btn btn-primary">
 </div>
 
 <?php
@@ -51,7 +51,7 @@ $del_title=Yii::t('admin_post', 'Delete Confirmation');
  $cancel=Yii::t('admin_post', 'Cancel');
    ?>
 <?php
-    $this->widget('zii.widgets.grid.CGridView', array(
+    $this->widget('bootstrap.widgets.BootGridView', array(
          'id' => 'post-grid',
          'dataProvider' => $model->search(),
          'filter' => $model,
