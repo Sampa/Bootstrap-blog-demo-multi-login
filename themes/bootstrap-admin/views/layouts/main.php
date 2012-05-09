@@ -44,6 +44,7 @@
 
             <div id="mainmenu">
 			<?php 
+			$facebookid=true;
 			if ( Yii::app()->facebook->getUser() == 0){
 				$facebookid=false;
 			}
